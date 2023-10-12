@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: $main-color;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .maindiv{
+        width: 90%;
+        height: 80%;
+        background-color: $main-color;
+    display: flex;}
+    gap: 15px;
+    .div1{
+width: $secondary-width;
+height: 100%;
+background-color: $main-color;
+display: flex;
+flex-direction: column;
+
+
+.div1-1{
+    width: $main-width;
+    height: $secondary-height;
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+    
+    
+    h4{
+        font-size: $main-font-size;
+        color: orangered;
+    }
+    h1{
+        font-size: 50px;
+        font-family: "Josefin Sans", sans-serif;;
+    }
+    p{
+        font-size: $main-font-size
+    }
+}
+.div1-2{
+    width: $main-width;
+    height: $secondary-height;
+    background-color: $main-color;
+    display: flex;
+    flex-wrap: wrap;
+    p{
+       font-size: 20px;
+    }
+    .div1-2-1 {
+       width: $secondary-width;
+       height: $secondary-height;
+       background-color: $main-color;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+    }
+    .div1-2-2 {
+        width: $secondary-width;
+        height: $secondary-height;
+        background-color: $main-color;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+     } 
+     .div1-2-3 {
+        width: $secondary-width;
+        height: $secondary-height;
+background-color:$main-color;
+display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+     .div1-2-4{
+        width: $secondary-width;
+       height: $secondary-height;
+        background-color: $main-color;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+}
+    }
+    .div2{
+        width: $secondary-width;
+        height: 90%;
+      background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/about.png.webp);
+    background-size: $main-background-size;
+    }
+}
+#section2{
+    width: $main-width;
+    height: 800px;
+    .maindiv2{
+        width:$main-width ;
+        height: $main-height;
+        background-color:$main-color;
+        display: flex;
+        gap: 20px;
+        .div2-1{
+            width: $secondary-width;
+            height: 100%;
+            background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/about2.png);
+            background-size: $main-background-size;
+        }
+        .div2-2{
+                width: $secondary-width;
+                height: 100%;
+                background-color: $main-color;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+        }
+        h4{
+            font-size: 20px;
+            color: orangered;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            height: 60px;
+            width: 200px;
+            border-radius: 5px;
+            border-color: orangered;
+            font-size: 20px;
+            color: gray;
+            background-color: $main-color;
+          
+            &:hover{
+                background-color: orangered;
+                
+}
+                
+
+  }
+            }
+    }
+    
